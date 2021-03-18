@@ -1,5 +1,5 @@
 ﻿
-namespace MachineryProcessingDemo
+namespace TurnOverManage.Forms
 {
     partial class PutInForm
     {

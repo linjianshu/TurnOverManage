@@ -1,15 +1,15 @@
-﻿using HZH_Controls;
-using HZH_Controls.Controls;
-using HZH_Controls.Forms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TurnOverManage;
+using HZH_Controls;
+using HZH_Controls.Controls;
+using HZH_Controls.Forms;
+using MachineryProcessingDemo;
 
-namespace MachineryProcessingDemo
+namespace TurnOverManage.Forms
 {
     public partial class MainPanel : FrmBase
     {
@@ -25,8 +25,8 @@ namespace MachineryProcessingDemo
         //全局静态只读tuple
         private static readonly List<Tuple<string, string>> MuneList = new List<Tuple<string, string>>()
         {
-            new Tuple<string, string>("入库", "E_arrow_carrot_2up_alt"),
-            new Tuple<string, string>("出库", "E_arrow_carrot_2dwnn_alt"),
+            new Tuple<string, string>("出库", "E_arrow_carrot_2up_alt"),
+            new Tuple<string, string>("入库", "E_arrow_carrot_2dwnn_alt"),
             new Tuple<string, string>("退出", "A_fa_power_off"),
         };
 

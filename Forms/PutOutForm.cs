@@ -10,7 +10,7 @@ using HZH_Controls.Forms;
 using MachineryProcessingDemo;
 using WorkPlatForm.Public_Classes;
 
-namespace TurnOverManage
+namespace TurnOverManage.Forms
 {
     public partial class PutOutForm : FrmWithOKCancel1
     {

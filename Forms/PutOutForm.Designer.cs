@@ -1,5 +1,5 @@
 ﻿
-namespace TurnOverManage
+namespace TurnOverManage.Forms
 {
     partial class PutOutForm
     {

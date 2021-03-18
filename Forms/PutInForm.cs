@@ -1,16 +1,16 @@
-﻿using AutoMapper;
-using HZH_Controls;
-using HZH_Controls.Forms;
-using System;
+﻿using System;
 using System.Drawing;
 using System.IO.Ports;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
-using QualityCheckDemo;
+using AutoMapper;
+using HZH_Controls;
+using HZH_Controls.Forms;
+using MachineryProcessingDemo;
 using WorkPlatForm.Public_Classes;
 
-namespace MachineryProcessingDemo
+namespace TurnOverManage.Forms
 {
     public partial class PutInForm : FrmWithOKCancel1
     {
